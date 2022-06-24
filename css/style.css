@@ -388,3 +388,33 @@ h6 {
   flex-basis: 32%;
   margin-top: 20px;
 }
+/* Books */
+.books__content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.books__item{
+  flex-basis: 24%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.books__main{
+  margin-top: 20px;
+}
+
+.books__name{
+  font-size: 20px;
+}
+.books__desc{
+  margin-top: 20px;
+}
+.books__pages{
+  margin: 15px 0;
+}
+.books__download{
+  border-bottom: 1px solid rgb(194, 69, 69);
+}

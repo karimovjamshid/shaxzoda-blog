@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+  .books__item {
+      flex-basis: 32%;
+    }
   .header-nav,
   .header .social {
     display: none;
@@ -95,6 +98,9 @@
   }
 }
 @media (max-width: 576px) {
+  .books__item {
+      flex-basis: 49%;
+    }
   .mini-header {
     width: 100vw;
   }
@@ -104,4 +110,12 @@
   .tutorials__item {
     flex-basis: 100%;
   }
+}
+@media (max-width: 400px) {
+  .books__item {
+      flex-basis: 100%;
+    }
+    .books__content{
+      justify-content: center;
+    }
 }
